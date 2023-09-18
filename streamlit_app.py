@@ -45,11 +45,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-# streamlit.write(f'The user entered {fruit_choice}')
-
-
-
-my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 #Snowflake-related functions
 def get_fruit_load_list():
